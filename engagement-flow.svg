@@ -1,0 +1,80 @@
+<svg width="1280" height="500" viewBox="0 0 1280 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engagement flow</title>
+  <desc id="desc">Assessment workflow from reconnaissance to mitigation</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5FFF"/>
+      <stop offset="1" stop-color="#35A0FF"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5B63"/>
+      <stop offset="1" stop-color="#FF8A8A"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#8BA9D733" />
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="1256" height="476" rx="28" fill="#FFFFFF" stroke="#DCE8FF" stroke-width="2"/>
+  <text x="70" y="78" fill="#102A5E" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800">Engagement Flow</text>
+  <text x="70" y="118" fill="#52719A" font-family="Arial, Helvetica, sans-serif" font-size="20">A concise, portfolio-friendly view of the assessment lifecycle used in this project.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="168" width="210" height="238" rx="28" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <rect x="64" y="168" width="210" height="10" rx="5" fill="url(#blue)"/>
+    <circle cx="106" cy="222" r="22" fill="#EAF2FF"/><text x="106" y="228" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">1</text>
+    <text x="92" y="268" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Reconnaissance</text>
+    <text x="92" y="308" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">Host discovery and</text>
+    <text x="92" y="332" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">service enumeration</text>
+    <text x="92" y="356" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">revealed exposed entry</text>
+    <text x="92" y="380" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">points worth deeper review.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="306" y="168" width="210" height="238" rx="28" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <rect x="306" y="168" width="210" height="10" rx="5" fill="url(#blue)"/>
+    <circle cx="348" cy="222" r="22" fill="#EAF2FF"/><text x="348" y="228" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">2</text>
+    <text x="334" y="268" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Exposure Review</text>
+    <text x="334" y="308" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">Weak credentials, hidden</text>
+    <text x="334" y="332" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">content paths, and risky</text>
+    <text x="334" y="356" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">services were assessed for</text>
+    <text x="334" y="380" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">practical exploitability.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="548" y="168" width="210" height="238" rx="28" fill="#FFF9F9" stroke="#FFE0E0" stroke-width="2"/>
+    <rect x="548" y="168" width="210" height="10" rx="5" fill="url(#red)"/>
+    <circle cx="590" cy="222" r="22" fill="#FFF0F0"/><text x="590" y="228" text-anchor="middle" fill="#E5484D" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">3</text>
+    <text x="576" y="268" fill="#7A2531" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Access Simulation</text>
+    <text x="576" y="308" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="15">Authorized attack paths</text>
+    <text x="576" y="332" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="15">were validated in-lab to</text>
+    <text x="576" y="356" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="15">measure impact and confirm</text>
+    <text x="576" y="380" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="15">defender visibility gaps.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="790" y="168" width="210" height="238" rx="28" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <rect x="790" y="168" width="210" height="10" rx="5" fill="url(#blue)"/>
+    <circle cx="832" cy="222" r="22" fill="#EAF2FF"/><text x="832" y="228" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">4</text>
+    <text x="818" y="268" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Log Analysis</text>
+    <text x="818" y="308" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">ELK and Kibana telemetry</text>
+    <text x="818" y="332" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">were used to map behavior</text>
+    <text x="818" y="356" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">to scan activity, auth abuse,</text>
+    <text x="818" y="380" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">and suspicious file access.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1032" y="168" width="184" height="238" rx="28" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <rect x="1032" y="168" width="184" height="10" rx="5" fill="url(#blue)"/>
+    <circle cx="1072" cy="222" r="22" fill="#EAF2FF"/><text x="1072" y="228" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">5</text>
+    <text x="1052" y="268" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Hardening</text>
+    <text x="1052" y="308" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">Alert thresholds,</text>
+    <text x="1052" y="332" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">allowlisting, lockouts,</text>
+    <text x="1052" y="356" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">and WebDAV controls</text>
+    <text x="1052" y="380" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="15">were recommended.</text>
+  </g>
+
+  <path d="M274 286H304" stroke="#7DA8FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M516 286H546" stroke="#7DA8FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M758 286H788" stroke="#7DA8FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1000 286H1030" stroke="#7DA8FF" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Findings overview</title>
+  <desc id="desc">Key findings and detection themes from the engagement</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5FFF"/>
+      <stop offset="1" stop-color="#35A0FF"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5B63"/>
+      <stop offset="1" stop-color="#FF8A8A"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#8BA9D733" />
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="1256" height="496" rx="28" fill="#FFFFFF" stroke="#DCE8FF" stroke-width="2"/>
+  <text x="70" y="78" fill="#102A5E" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800">Key Findings</text>
+  <text x="70" y="118" fill="#52719A" font-family="Arial, Helvetica, sans-serif" font-size="20">Condensed signals pulled from the assessment and blue-team analysis artifacts.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="156" width="540" height="124" rx="26" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <rect x="70" y="156" width="14" height="124" rx="7" fill="url(#blue)"/>
+    <text x="110" y="198" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Port scanning was highly visible</text>
+    <text x="110" y="236" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="17">Traffic spikes and broad service probing created clear signals for</text>
+    <text x="110" y="262" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="17">threshold alerts, IDS review, and exposure reduction.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="670" y="156" width="540" height="124" rx="26" fill="#FFF9F9" stroke="#FFE0E0" stroke-width="2"/>
+    <rect x="670" y="156" width="14" height="124" rx="7" fill="url(#red)"/>
+    <text x="710" y="198" fill="#7A2531" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Hidden content expanded the attack path</text>
+    <text x="710" y="236" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="17">Requests to a protected directory exposed sensitive material and</text>
+    <text x="710" y="262" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="17">highlighted the need for stronger access control and monitoring.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="314" width="540" height="124" rx="26" fill="#FFF9F9" stroke="#FFE0E0" stroke-width="2"/>
+    <rect x="70" y="314" width="14" height="124" rx="7" fill="url(#red)"/>
+    <text x="110" y="356" fill="#7A2531" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Credential attacks generated clear patterns</text>
+    <text x="110" y="394" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="17">Repeated failures and abnormal request volume support account</text>
+    <text x="110" y="420" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="17">lockouts, velocity alerts, and stronger password policy.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="670" y="314" width="540" height="124" rx="26" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <rect x="670" y="314" width="14" height="124" rx="7" fill="url(#blue)"/>
+    <text x="710" y="356" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">WebDAV write access raised critical risk</text>
+    <text x="710" y="394" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="17">Upload-capable directories and outbound shell behavior underscore</text>
+    <text x="710" y="420" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="17">the need for restrictive permissions and content screening.</text>
+  </g>
+</svg>

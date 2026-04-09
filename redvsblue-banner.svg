@@ -1,0 +1,100 @@
+<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RedVsBlue banner</title>
+  <desc id="desc">Hero banner for a penetration testing and blue team detection project</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFF"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="160" y1="120" x2="780" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5FFF"/>
+      <stop offset="1" stop-color="#35A0FF"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="760" y1="120" x2="1160" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4D4F"/>
+      <stop offset="1" stop-color="#FF7A7A"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#89A9E833" />
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#E6EEFF" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="12" y="12" width="1256" height="456" rx="28" fill="url(#bg)" stroke="#DCE8FF" stroke-width="2"/>
+  <rect x="12" y="12" width="1256" height="456" rx="28" fill="url(#grid)" opacity="0.55"/>
+  <circle cx="1030" cy="102" r="120" fill="#EAF2FF"/>
+  <circle cx="1128" cy="364" r="90" fill="#FFF0F0"/>
+
+  <g filter="url(#shadow)">
+    <rect x="76" y="72" width="138" height="38" rx="19" fill="#EEF4FF"/>
+    <text x="145" y="96" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">AUTHORIZED LAB</text>
+
+    <rect x="226" y="72" width="166" height="38" rx="19" fill="#EEF4FF"/>
+    <text x="309" y="96" text-anchor="middle" fill="#0E2E75" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">RED / BLUE TEAM</text>
+
+    <rect x="404" y="72" width="156" height="38" rx="19" fill="#FFF1F1"/>
+    <text x="482" y="96" text-anchor="middle" fill="#E5484D" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">DETECTION READY</text>
+  </g>
+
+  <text x="76" y="186" fill="#102A5E" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">RedVsBlue</text>
+  <text x="76" y="238" fill="#2A4C7B" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="600">
+    Penetration testing, attack-path analysis,
+  </text>
+  <text x="76" y="274" fill="#2A4C7B" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="600">
+    and defensive hardening
+  </text>
+  <text x="76" y="324" fill="#4C648A" font-family="Arial, Helvetica, sans-serif" font-size="23">
+    A full-lifecycle lab engagement covering reconnaissance,
+  </text>
+  <text x="76" y="356" fill="#4C648A" font-family="Arial, Helvetica, sans-serif" font-size="23">
+    log analysis, alert design, and mitigation strategy.
+  </text>
+
+  <g opacity="0.98">
+    <rect x="76" y="384" width="610" height="54" rx="22" fill="#FFFFFF" stroke="#DCE8FF" stroke-width="2"/>
+    <circle cx="116" cy="411" r="14" fill="url(#blueGrad)"/>
+    <text x="146" y="405" fill="#16366A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">What this repo highlights</text>
+    <text x="146" y="425" fill="#48658B" font-family="Arial, Helvetica, sans-serif" font-size="16">
+      Red-team methodology • ELK detection • defensive engineering • reporting
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="812" y="88" width="388" height="300" rx="28" fill="#FFFFFF" stroke="#DCE8FF" stroke-width="2"/>
+
+    <path d="M908 160C908 137.909 925.909 120 948 120H1064C1086.09 120 1104 137.909 1104 160V168H908V160Z" fill="#EEF4FF"/>
+    <rect x="908" y="168" width="196" height="144" rx="24" fill="#F9FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <text x="1006" y="202" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800">TARGET</text>
+    <text x="1006" y="234" text-anchor="middle" fill="#476589" font-family="Arial, Helvetica, sans-serif" font-size="16">Vulnerable Web Host</text>
+    <text x="1006" y="258" text-anchor="middle" fill="#476589" font-family="Arial, Helvetica, sans-serif" font-size="16">Credential Exposure</text>
+    <text x="1006" y="282" text-anchor="middle" fill="#476589" font-family="Arial, Helvetica, sans-serif" font-size="16">WebDAV Abuse Path</text>
+
+    <rect x="836" y="214" width="100" height="68" rx="20" fill="#F3F8FF" stroke="#CFE0FF" stroke-width="2"/>
+    <text x="886" y="243" text-anchor="middle" fill="#0E2E75" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">KALI</text>
+    <text x="886" y="266" text-anchor="middle" fill="#4C648A" font-family="Arial, Helvetica, sans-serif" font-size="13">Assessment</text>
+
+    <rect x="1078" y="214" width="100" height="68" rx="20" fill="#F8FBFF" stroke="#CFE0FF" stroke-width="2"/>
+    <text x="1128" y="243" text-anchor="middle" fill="#0E2E75" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">ELK</text>
+    <text x="1128" y="266" text-anchor="middle" fill="#4C648A" font-family="Arial, Helvetica, sans-serif" font-size="13">Detection</text>
+
+    <path d="M936 248H908" stroke="url(#blueGrad)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1104 248H1078" stroke="url(#blueGrad)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M936 226L958 210" stroke="#FF5C61" stroke-width="5" stroke-linecap="round"/>
+    <path d="M958 286L936 270" stroke="#FF5C61" stroke-width="5" stroke-linecap="round"/>
+
+    <circle cx="930" cy="226" r="7" fill="#FF5C61"/>
+    <circle cx="930" cy="270" r="7" fill="#FF5C61"/>
+    <circle cx="1115" cy="194" r="6" fill="#35A0FF"/>
+    <circle cx="1135" cy="194" r="6" fill="#35A0FF"/>
+    <circle cx="1155" cy="194" r="6" fill="#35A0FF"/>
+
+    <rect x="846" y="332" width="328" height="34" rx="17" fill="#0B5FFF"/>
+    <text x="1010" y="354" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">ATTACK → DETECTION → HARDENING</text>
+  </g>
+
+  <text x="76" y="462" fill="#5E789F" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    Secure documentation for an isolated assessment environment only.
+  </text>
+</svg>

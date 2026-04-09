@@ -1,0 +1,67 @@
+<svg width="1280" height="460" viewBox="0 0 1280 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lab topology</title>
+  <desc id="desc">Simplified network overview of the RedVsBlue lab</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1280" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5FFF"/>
+      <stop offset="1" stop-color="#35A0FF"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1280" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5B63"/>
+      <stop offset="1" stop-color="#FF8A8A"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#8BA9D733" />
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="1256" height="436" rx="28" fill="#FFFFFF" stroke="#DCE8FF" stroke-width="2"/>
+  <text x="70" y="78" fill="#102A5E" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800">Lab Topology</text>
+  <text x="70" y="118" fill="#52719A" font-family="Arial, Helvetica, sans-serif" font-size="20">A simplified view of the isolated assessment environment documented in the slide deck.</text>
+
+  <rect x="490" y="150" width="300" height="180" rx="32" fill="#F9FBFF" stroke="#DCE8FF" stroke-width="3"/>
+  <text x="640" y="205" text-anchor="middle" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800">192.168.1.0 / 24</text>
+  <text x="640" y="242" text-anchor="middle" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="20">Shared lab network</text>
+  <rect x="558" y="270" width="164" height="34" rx="17" fill="url(#blue)"/>
+  <text x="640" y="292" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Gateway 192.168.1.1</text>
+
+  <g filter="url(#shadow)">
+    <rect x="84" y="176" width="240" height="132" rx="26" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <circle cx="132" cy="222" r="20" fill="#EAF2FF"/>
+    <text x="132" y="229" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">K</text>
+    <text x="170" y="220" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Kali</text>
+    <text x="170" y="247" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">192.168.1.90</text>
+    <text x="118" y="284" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">Assessment workstation used</text>
+    <text x="118" y="308" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">for adversary emulation.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="520" y="336" width="240" height="80" rx="24" fill="#FFF9F9" stroke="#FFE0E0" stroke-width="2"/>
+    <text x="640" y="366" text-anchor="middle" fill="#7A2531" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Capstone Target</text>
+    <text x="640" y="392" text-anchor="middle" fill="#89505A" font-family="Arial, Helvetica, sans-serif" font-size="18">192.168.1.105 • Linux</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="956" y="176" width="240" height="132" rx="26" fill="#F8FBFF" stroke="#DCE8FF" stroke-width="2"/>
+    <circle cx="1004" cy="222" r="20" fill="#EAF2FF"/>
+    <text x="1004" y="229" text-anchor="middle" fill="#0B5FFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">E</text>
+    <text x="1042" y="220" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">ELK</text>
+    <text x="1042" y="247" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">192.168.1.100</text>
+    <text x="990" y="284" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">Telemetry, dashboards, and</text>
+    <text x="990" y="308" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">attack characterization.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="520" y="38" width="240" height="82" rx="24" fill="#F7FAFF" stroke="#DCE8FF" stroke-width="2"/>
+    <text x="640" y="71" text-anchor="middle" fill="#13366B" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Azure Hyper-V Host</text>
+    <text x="640" y="97" text-anchor="middle" fill="#4A678E" font-family="Arial, Helvetica, sans-serif" font-size="18">192.168.1.1 • Windows 10</text>
+  </g>
+
+  <path d="M324 242H490" stroke="url(#blue)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M790 242H956" stroke="url(#blue)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M640 150V120" stroke="#7DA8FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M640 330V336" stroke="url(#red)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="408" cy="242" r="8" fill="#0B5FFF"/>
+  <circle cx="872" cy="242" r="8" fill="#0B5FFF"/>
+  <circle cx="640" cy="136" r="8" fill="#0B5FFF"/>
+  <circle cx="640" cy="333" r="8" fill="#FF5B63"/>
+</svg>
