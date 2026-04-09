@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/redvsblue-banner.svg" alt="RedVsBlue banner" width="100%">
+  <img src="./redvsblue-banner.svg" alt="RedVsBlue banner" width="100%">
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@ This project is especially useful as a showcase of:
 ## Engagement at a Glance
 
 <p align="center">
-  <img src="docs/assets/engagement-flow.svg" alt="Engagement flow" width="100%">
+<img src="./engagement-flow.svg" alt="Engagement Flow" width="100%">
 </p>
 
 | Phase | Focus | Outcome |
@@ -49,7 +49,7 @@ This project is especially useful as a showcase of:
 ## Lab Environment
 
 <p align="center">
-  <img src="docs/assets/lab-topology.svg" alt="Lab topology" width="100%">
+  <img src="./lab-topology.svg" alt="Lab Topology" width="100%">
 </p>
 
 | Component | Host / Role | Notes |
@@ -63,7 +63,7 @@ This project is especially useful as a showcase of:
 ## Key Findings
 
 <p align="center">
-  <img src="docs/assets/findings-overview.svg" alt="Findings overview" width="100%">
+<img src="./findings-overview.svg" alt="Findings Overview" width="100%">
 </p>
 
 The assessment and log-review artifacts consistently point to four major themes:
